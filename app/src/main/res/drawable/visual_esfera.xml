@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 1. Corpo principal da esfera (Reduzido para 25dp) -->
+    <item>
+        <shape android:shape="oval">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="20dp"
+                android:startColor="#FFFFFF"
+                android:centerColor="#DDDDDD"
+                android:endColor="#AAAAAA" />
+            <size android:width="25dp" android:height="25dp"/>
+        </shape>
+    </item>
+
+    <!-- 2. Brilho superior (Ajustado proporcionalmente) -->
+    <item
+        android:top="2dp"
+        android:left="2dp"
+        android:right="12dp"
+        android:bottom="12dp">
+        <shape android:shape="oval">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="7dp"
+                android:startColor="#80FFFFFF"
+                android:endColor="#00FFFFFF" />
+        </shape>
+    </item>
+</layer-list>

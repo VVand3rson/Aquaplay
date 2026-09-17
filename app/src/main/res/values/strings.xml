@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Bob Esponja AquaPlay</string>
+    <string name="pontos_label">Pontos: %1$d</string>
+    <string name="tempo_label">Tempo: %1$ds</string>
+    <string name="msg_venceu">VOCÊ VENCEU!</string>
+    <string name="msg_fim_tempo">FIM DE TEMPO!</string>
+    <string name="msg_inicio">Nível 1: Faça vinte pontos em 1 minuto</string>
+    <string name="msg_nivel2_intro">Nível 2: Cesta móvel!\nFaça 20 pontos em 1 minuto.</string>
+    <string name="msg_nivel3_intro">Nível 3: Cesta VELOZ!\nA velocidade aumentou! Faça 20 pontos.</string>
+    <string name="msg_nivel4_intro">Nível 4: Cesta GIRATÓRIA!\nEla não para de rodar! Consegue acertar?</string>
+    <string name="msg_nivel5_intro">Nível 5: VELOCIDADE MÁXIMA!\nA cesta gira mais rápido agora!</string>
+    <string name="msg_nivel6_intro">Nível 6: MOVIMENTO TOTAL!\nA cesta se move em todas as direções!</string>
+    <string name="msg_nivel7_intro">Nível 7: Movimento total com rotação intensa!</string>
+    <string name="msg_nivel8_intro">Nível 8: CESTAS GÊMEAS!\nDuas cestas se movendo em tempos diferentes!</string>
+    <string name="btn_proximo_nivel">Próximo Nível</string>
+    <string name="msg_venceu_final">PARABÉNS! VOCÊ COMPLETOU TUDO!</string>
+    <string name="btn_comecar">Começar</string>
+    <string name="pontos_0">Pontos: 0</string>
+    <string name="tempo_60s">Tempo: 60s</string>
+    <string name="vit_ria">VITÓRIA!</string>
+    <string name="de_novo">De novo</string>
+    <string name="btn_sair">Sair</string>
+</resources>

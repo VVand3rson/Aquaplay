@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 1. Rede da Cesta (Representada por um trapézio invertido/forma arredondada) -->
+    <item android:top="20dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#80FFFFFF"/> <!-- Branco semi-transparente para parecer rede -->
+            <stroke android:width="2dp" android:color="#DDFFFFFF"/>
+            <corners android:bottomLeftRadius="20dp" android:bottomRightRadius="20dp"/>
+        </shape>
+    </item>
+
+    <!-- 2. Aro da Cesta -->
+    <item android:bottom="40dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FF5722"/> <!-- Cor laranja clássica de aro -->
+            <corners android:radius="4dp"/>
+        </shape>
+    </item>
+
+</layer-list>
